@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: dollar-price-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: 8479385413:AAG6HxR_tAqi5FmsJnbztdi_zT12XQT-fiU
+      - key: CHANNEL_ID
+        value: @gheymatdollarr
